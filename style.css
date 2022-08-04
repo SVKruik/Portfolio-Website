@@ -1,0 +1,50 @@
+* {
+    transition: background 2s;
+    font-family: "Poppins", sans-serif;
+}
+
+.theme {
+    --primary: #222729;
+    --secondary: #FECF4B;
+    --accent: #F4966D;
+    --fontcolor: #fff;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    min-height: 10vh;
+    position: -webkit-sticky;
+    list-style: none;
+    padding-right: 150px;
+    align-items: center;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+    list-style: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    align-items: left;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.navlist {
+    background-color: var(--primary);
+    list-style: none;
+}
+
+.navlinks a:link,
+a:visited {
+    color: var(--secondary)
+}
+
+.navlinks a:hover {
+    color: var(--accent);
+}
+
+/* Content */
