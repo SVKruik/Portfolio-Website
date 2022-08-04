@@ -1,6 +1,8 @@
 * {
-    transition: background 2s;
-    font-family: "Poppins", sans-serif;
+    background-color: #EEEDF2;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+
 }
 
 .theme {
@@ -11,26 +13,13 @@
 }
 
 /* Navbar */
-nav {
-    display: flex;
-    justify-content: space-around;
-    min-height: 10vh;
-    position: -webkit-sticky;
-    list-style: none;
-    padding-right: 150px;
-    align-items: center;
-}
-
 .navlinks {
     display: flex;
-    justify-content: space-around;
-    width: 55%;
     list-style: none;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 10px;
-    align-items: left;
-    text-align: left;
-    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .navlist {
