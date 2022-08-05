@@ -1,39 +1,47 @@
-* {
-    background-color: #EEEDF2;
-    font-family: 'Nunito', sans-serif;
-    text-decoration: none;
-
-}
-
-.theme {
+:root {
     --primary: #222729;
     --secondary: #FECF4B;
     --accent: #F4966D;
     --fontcolor: #fff;
 }
 
+* {
+    background-color: var(--primary);
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    color: var(--fontcolor);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /* Navbar */
-.navlinks {
-    display: flex;
-    list-style: none;
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
     font-size: 30px;
-    margin-bottom: 10px;
+}
+
+header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: right;
+    padding: 30px 10%;
 }
 
 .navlist {
-    background-color: var(--primary);
     list-style: none;
 }
 
 .navlinks a:link,
 a:visited {
-    color: var(--secondary)
+    color: var(--secondary);
+
 }
 
 .navlinks a:hover {
     color: var(--accent);
+    transition: 1s;
 }
 
 /* Content */
