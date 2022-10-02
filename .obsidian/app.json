@@ -1,0 +1,11 @@
+{
+  "promptDelete": false,
+  "showLineNumber": true,
+  "showUnsupportedFiles": true,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "nl",
+    "en-US",
+    "en-GB"
+  ]
+}

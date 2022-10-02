@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "677695b05c86686d",
+    "type": "split",
+    "children": [
+      {
+        "id": "45d17e91a5070d4e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Samenwerken/5.-Deadlines.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "62b50f9ea593fbbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "714f5db0e5fa6b65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8676933a57a5eba2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8d60b7dc8c602613",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "be0702bd31fb42bf",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "05d29ada5b49ab67",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f94ac2898808194",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d6c274f3a612fc9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Samenwerken/5.-Deadlines.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c4019b3eb30f411f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Samenwerken/5.-Deadlines.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ae486f7bbe5f130a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c80580e19817174d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Samenwerken/5.-Deadlines.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "45d17e91a5070d4e",
+  "lastOpenFiles": [
+    "Business-Case/2.-Verwachte-resultaten.md",
+    "Business-Case/1.-Aanleiding.md",
+    "Requirements/1.-Functional-Requirements.md",
+    "Requirements/2.-Non-Functional-Requirements.md",
+    "Business-Case/4.-Risicos.md",
+    "Business-Case/5.-Globale-planning.md",
+    "Samenwerken/5.-Deadlines.md",
+    "Business-Case/3.-Doelgroep.md",
+    "Samenwerken/4.-Meetings.md",
+    "2022-10-01.md"
+  ]
+}
