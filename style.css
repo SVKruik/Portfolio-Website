@@ -1,18 +1,22 @@
 :root {
-    --primary: #222729;
-    --secondary: #FECF4B;
-    --accent: #F4966D;
-    --fontcolor: #fff;
+    --primary: #292020;
+    --secondary: #5C3D2E;
+    --accent-a: #B85C38;
+    --accent-b: #E0C097;
+    --font: #fff;
 }
 
 * {
     background-color: var(--primary);
     font-family: 'Nunito', sans-serif;
     text-decoration: none;
-    color: var(--fontcolor);
+    color: var(--font);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    transition: 0.3s;
+    scroll-behavior: smooth;
+    scroll-padding-top: 10rem;
 }
 
 /* Navbar */
@@ -40,8 +44,7 @@ a:visited {
 }
 
 .navlinks a:hover {
-    color: var(--accent);
-    transition: 1s;
+    color: var(--accent-a);
 }
 
 /* Content */
