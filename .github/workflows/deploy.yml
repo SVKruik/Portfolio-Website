@@ -1,0 +1,10 @@
+name: Deploy Application
+on:
+  push
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer ${{ secrets.DEPLOYMENT_KEY }}" ${{ secrets.DEPLOYMENT_ENDPOINT }}
