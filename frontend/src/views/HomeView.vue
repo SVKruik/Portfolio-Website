@@ -10,6 +10,7 @@ export default defineComponent({
     <div>
         <h1>Welcome to my portfolio website.</h1>
         <p>I am still working on it, and as of now I have not published anything yet.</p>
+        <p>Current version: 1.0.0</p>
         <p>The portfolio website is open source, and you can find the GitHub repository here: <a
                 href="https://github.com/SVKruik/Portfolio-Website">link</a></p>
     </div>
