@@ -1,21 +1,20 @@
 :root {
-    --main: #f4f4f4;
-    --font: #313131;
+    --main: #0d1116;
+    --font: #ededed;
+    --font-light: #b1b1b1;
+    --fill: #161b22;
+    --fill-light: #2a323e;
+    --border: #30363d;
+    --link: #2f81f7;
+    --border-radius-low: 5px;
 }
 
 body {
     background: var(--main);
-    transition: 0.3s;
-    font-size: 15px;
+    transition: 0.5s;
     font-family: "Inter Tight", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-}
-
-* {
-    color: var(--font);
-    margin: 0;
-    padding: 0;
 }
 
 /* Custom Classes */
@@ -38,6 +37,10 @@ body {
     gap: 5px;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .flex-col {
     display: flex;
     flex-direction: column;
@@ -50,7 +53,7 @@ body {
 }
 
 .visible {
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 .ellipsis {
@@ -59,9 +62,17 @@ body {
     text-overflow: ellipsis;
 }
 
-.gradient-button {
-    background-image: linear-gradient(to right, #3977a0 0%, #68589f 39%, #3977a0 100%);
-    background-size: 200% auto;
+.disabled-text {
+    color: var(--font-light);
+    opacity: 0.3;
+}
+
+.light-text {
+    color: var(--font-light);
+}
+
+.small-text {
+    font-size: 14px;
 }
 
 /* HTML Tags */
@@ -74,13 +85,22 @@ button * {
     cursor: pointer;
 }
 
+*,
+i {
+    color: var(--font);
+    margin: 0;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
+    color: var(--link);
 }
 
 a,
-p {
-    font-size: medium;
+p,
+button {
+    font-size: 16px;
 }
 
 ul,
@@ -117,7 +137,6 @@ button {
 ::-webkit-scrollbar {
     width: 7px;
 }
-
 
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px #ACACAC;
