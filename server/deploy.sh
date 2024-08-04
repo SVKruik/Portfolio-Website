@@ -29,7 +29,7 @@ if [ -d "dist" ]; then
     echo "Cleanup complete"
 
     echo "Deployment complete. Reloading server."
-    sudo systemctl restart bot-website.service
+    sudo systemctl restart portfolio-website.service
 else
     echo "Deployment failed. Dist directory missing."
     exit 1
