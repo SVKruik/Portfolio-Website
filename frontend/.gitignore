@@ -1,25 +1,6 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-
 node_modules
-.DS_Store
 dist
-dist-ssr
-coverage
-*.local
+frontendDist
 package-lock.json
 .env
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-*.tsbuildinfo
+.DS_Store
