@@ -10,5 +10,5 @@ jobs:
           curl -X POST \
                -H "Content-Type: application/json" \
                -H "Authorization: Bearer ${{ secrets.DEPLOYMENT_PASSWORD }}" \
-               -d '{"type":"push","repository":"Portfolio-Website", "payload":${{ toJson(github.event) }}}' \
+               -d '{"type":"push","repository":"Portfolio-Website", "payload":${{ github.event }}}' \
                ${{ secrets.DEPLOYMENT_ENDPOINT }}

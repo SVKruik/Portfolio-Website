@@ -37,9 +37,9 @@ app.listen(port, async () => {
     // Setup
     const channel: Channel | null = await getConnection();
     if (!channel) throw new Error("Uplink connection missing.");
-    channel.assertExchange("portfolio", "direct", { durable: false });
+    channel.assertExchange("unicast-misc", "direct", { durable: false });
     const queue = await channel.assertQueue("", { exclusive: true });
-    await channel.bindQueue(queue.queue, "portfolio", "server");
+    await channel.bindQueue(queue.queue, "unicast-misc", "portfolio");
 
     // Listen
     channel.consume(queue.queue, (message: Message | null) => {
