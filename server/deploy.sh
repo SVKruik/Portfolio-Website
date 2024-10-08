@@ -9,7 +9,7 @@ git reset --hard
 git pull
 echo "Git setup complete"
 
-# Hosting - www.stefankruik.com
+# Hosting - stefankruik.com
 cd frontend
 npm install
 npm run build
